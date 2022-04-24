@@ -1,0 +1,72 @@
+<div class="container-fuild bgr-out">
+    <div nz-row style="overflow: hidden; ">
+      <video
+        src="https://prismic-io.s3.amazonaws.com/alvogen/fb16d7e7-e0b4-4dab-ac3b-72ab2e6a428e_alvogen-com-loop-feb-2019.mp4"
+        autoplay loop></video>
+      <div class="bgr-w">
+      </div>
+    </div>
+    <div class="content" nz-row>
+      <div nz-col class="gutter-row logo" [nzSpan]="16">
+        <img src="/assets/logo-mini.png" alt="">
+      </div>
+      <div nz-col class="gutter-row navbar" [nzSpan]="8">
+        <div class="search">
+          <input type="text" name="" id="">
+          <i nz-icon nzType="search" nzTheme="outline"></i>
+        </div>
+        <div class="title-4-5 nav">
+          <div>Company</div>
+          <div>Products</div>
+          <div>Partnerships</div>
+          <div>Purpose</div>
+          <div>Worldwide</div>
+        </div>
+      </div>
+    </div>
+    <div class="content-ct">
+      <div class="ALVOGEN">
+        <hr width="60px" align="center" color=" #239358" size="3px" />
+        ALVOGEN
+      </div>
+      <div class="introduction">
+        Setting a new standard for the future of pharma
+      </div>
+    </div>
+    <div class="btn-bot">
+      <div>
+        <i nz-icon nzType="down" nzTheme="outline"></i>
+      </div>
+      <hr width="80px" align="center" color="#239358" size="4px" />
+    </div>
+  </div>
+  <div class="container ">
+    <div nz-row [nzGutter]="16" class="mx-7"> 
+      <div nz-col class="gutter-row" [nzSpan]="12" >
+        <div class="company mb-4">
+          <hr width="60px" align="center" color=" #239358" size="3px" />
+          COMPANY
+        </div>
+        <h1 style="letter-spacing: -2px; font-size: 60px; font-weight: bold;">
+          Who we are
+        </h1>
+        <div class="content-bot-about-us">
+          <div>
+  
+          </div>
+          <h5 class="title-4-5">Alvogen is a global, privately owned pharmaceutical company focused on developing,
+            manufacturing and selling
+            generic, brand, over-the counter (OTC) and biosimilar products for patients around the world.</h5>
+        </div>
+        <div class="btn-routing-about-us" (mousemove)="aboutus = true" (mouseout)="aboutus = false" routerLink="/about-us" routerLinkActive="active">
+          <ng-container *ngIf="aboutus">ABOUT US</ng-container>
+          <i nz-icon nzType="right" nzTheme="outline"></i>
+        </div>
+      </div>
+      <div nz-col class="gutter-row" [nzSpan]="12">
+        <div class="inner-box">
+          <img src="/assets/d5436b69-50c1-4167-af10-fae10cb508de_Pharmacist+woman+pill.avif" alt="" width="575" height="658">
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,214 @@
+.content {
+  display: flex;
+  padding: 24px 38px;
+  align-items: center;
+
+  .active {
+    color: #239358;
+  }
+
+  .logo img {
+    width: 210px;
+    margin-left: 32px;
+  }
+
+  .navbar div {
+    font-weight: bold;
+
+  }
+}
+
+.search input {
+  margin-left: 310px;
+  height: 32px;
+  width: 200px;
+  border: 1px solid #239358;
+  border-radius: 6px;
+  color: #333;
+  margin-bottom: 8px;
+  position: relative;
+  padding-right: 30px;
+}
+
+.search i {
+  position: absolute;
+  top: 9px;
+  right: 108px;
+  color: #333;
+}
+
+.search i:hover {
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+
+  div {
+    padding: 0 8px;
+  }
+}
+
+.nav div:hover {
+  cursor: pointer;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-weight: bold;
+
+  hr {
+    margin: 0 16px;
+  }
+}
+
+.content-bot-about-us {
+  display: flex;
+  width: 500px;
+
+  h5 {
+    color: grey;
+  }
+}
+
+.content-bot-about-us div {
+  background-image: url("/src/assets/nen-trang-47.jpg");
+  width: 600px;
+}
+
+.btn-routing-about-us {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  color: #239358;
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+.btn-routing-about-us i {
+  font-size: 24px;
+  color: #239358;
+  transition: all 0.3s ease;
+  padding-bottom: 8px;
+}
+
+.btn-routing-about-us:hover {
+  cursor: pointer;
+  width: 300px;
+  background-color: #333;
+}
+
+.btn-routing-about-us:hover i {
+  margin-left: 60px;
+}
+
+.out-vision {
+  background-color: #239358;
+  width: 496px;
+  height: 127px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.out-vision-child {
+  font-size: 20px;
+  margin-left: 56px;
+}
+
+.routerlink-out-vision {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -40px;
+  right: -53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  i {
+    font-size: 26px;
+    color: #239358;
+  }
+}
+
+.routerlink-out-vision:hover {
+  cursor: pointer;
+  background-color: rgb(233, 227, 227);
+
+}
+.w-box{
+  width: 360px;
+}
+.box-cart {
+  background-color: #dedede;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  position: relative;
+  padding: 16px 16px 24px;
+  width: 360px;
+  
+  .custom-view {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+  }
+  .layout {
+    display: flex;
+    color: #239358;
+    align-items: center;
+
+    div {
+      width: 28px;
+      height: 32px;
+      background-color: #239358;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 8px;
+
+    }
+
+    fa-icon {
+      color: #fff;
+      font-size: 20px;
+      margin-top: 4px;
+    }
+  }
+  .video {
+    display: flex;
+    color: #239358;
+    align-items: center;
+    margin-top: 16px;
+    float: right;
+    div {
+      width: 28px;
+      height: 32px;
+      background-color: #239358;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 8px;
+
+    }
+
+    fa-icon {
+      color: #fff;
+      font-size: 20px;
+      margin-top: 4px;
+    }
+  }
+  
+  
+  
+}
