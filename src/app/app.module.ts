@@ -14,14 +14,26 @@ import { IconDefinition } from '@ant-design/icons-angular';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 
 import { AccountBookFill, AlertFill, AlertOutline } from '@ant-design/icons-angular/icons';
+import { ProductsComponent } from './products/products.component';
+import { NzModalModule } from 'ng-zorro-antd/modal';
+import { NZ_I18N } from 'ng-zorro-antd/i18n';
+import { en_US } from 'ng-zorro-antd/i18n';
+import { registerLocaleData } from '@angular/common';
+import en from '@angular/common/locales/en';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 
+registerLocaleData(en);
 const icons: IconDefinition[] = [ AccountBookFill, AlertOutline, AlertFill ];
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutUsComponent,
-    HomeComponent
+    HomeComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
@@ -29,9 +41,14 @@ const icons: IconDefinition[] = [ AccountBookFill, AlertOutline, AlertFill ];
     NzGridModule,
     NzDropDownModule,
     FontAwesomeModule,
+    NzModalModule,
     NzIconModule.forRoot(icons),
+    FormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    NzCarouselModule
   ],
-  providers: [ ],
+  providers: [ { provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,75 @@
+.w-box{
+    width: 360px;
+  }
+  .box-cart {
+    background-color: #dedede;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    position: relative;
+    padding: 16px 16px 24px;
+    width: 360px;
+    
+    .custom-view {
+      position: absolute;
+      right: 16px;
+      bottom: 24px;
+    }
+    .layout {
+      display: flex;
+      color: #239358;
+      align-items: center;
+  
+      div {
+        width: 28px;
+        height: 32px;
+        background-color: #239358;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8px;
+  
+      }
+  
+      i {
+        color: #fff;
+        font-size: 20px;
+      }
+    }
+    .video {
+      display: flex;
+      color: #239358;
+      align-items: center;
+      margin-top: 16px;
+      float: right;
+      div {
+        width: 28px;
+        height: 32px;
+        background-color: #239358;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8px;
+  
+      }
+  
+      i {
+        color: #fff;
+        font-size: 20px;
+      }
+    }
+    
+    .img-prd:hover{
+      cursor: pointer;
+    }
+    
+  }
+  [nz-carousel-content] {
+    text-align: center;
+    line-height: 160px;
+    background: gray;
+    color: #fff;
+    overflow: hidden;
+   
+  }
+  .st-carosel{
+    height: 752px;
+  }

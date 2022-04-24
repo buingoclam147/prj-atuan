@@ -160,7 +160,7 @@
   
   .custom-view {
     position: absolute;
-    right: 24px;
+    right: 16px;
     bottom: 24px;
   }
   .layout {
@@ -179,10 +179,9 @@
 
     }
 
-    fa-icon {
+    i {
       color: #fff;
       font-size: 20px;
-      margin-top: 4px;
     }
   }
   .video {
@@ -202,13 +201,28 @@
 
     }
 
-    fa-icon {
+    i {
       color: #fff;
       font-size: 20px;
-      margin-top: 4px;
     }
   }
   
-  
+  .img-prd:hover{
+    cursor: pointer;
+  }
   
 }
+[nz-carousel-content] {
+  text-align: center;
+  line-height: 160px;
+  background: gray;
+  color: #fff;
+  overflow: hidden;
+ 
+}
+.st-carosel{
+  height: 752px;
+}
+
+
+

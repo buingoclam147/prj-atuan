@@ -10,9 +10,26 @@ export class AboutUsComponent implements OnInit {
   faCoffee = faCoffee;
   faFilePdf = faFilePdf;
   faCirclePlay = faCirclePlay;
+  isVisible = false;
+  effect = 'scrollx';
   constructor() { }
 
   ngOnInit(): void {
   }
 
+
+  showModal(): void {
+    this.isVisible = true;
+  }
+
+  handleOk(): void {
+    console.log('Button ok clicked!');
+    this.isVisible = false;
+  }
+
+  handleCancel(): void {
+    console.log('Button cancel clicked!');
+    this.isVisible = false;
+  }
+  
 }
